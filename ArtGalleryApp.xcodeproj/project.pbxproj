@@ -9,12 +9,28 @@
 /* Begin PBXBuildFile section */
 		83CFA06B2DE4EF1900FEDC29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA06A2DE4EF1900FEDC29 /* AppDelegate.swift */; };
 		83CFA06D2DE4EF1900FEDC29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA06C2DE4EF1900FEDC29 /* SceneDelegate.swift */; };
-		83CFA06F2DE4EF1900FEDC29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA06E2DE4EF1900FEDC29 /* ViewController.swift */; };
+		83CFA06F2DE4EF1900FEDC29 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA06E2DE4EF1900FEDC29 /* HomeViewController.swift */; };
 		83CFA0742DE4EF1B00FEDC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83CFA0732DE4EF1B00FEDC29 /* Assets.xcassets */; };
 		83CFA0772DE4EF1B00FEDC29 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 83CFA0762DE4EF1B00FEDC29 /* Base */; };
 		83CFA0822DE4EF1B00FEDC29 /* ArtGalleryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA0812DE4EF1B00FEDC29 /* ArtGalleryAppTests.swift */; };
 		83CFA08C2DE4EF1B00FEDC29 /* ArtGalleryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA08B2DE4EF1B00FEDC29 /* ArtGalleryAppUITests.swift */; };
 		83CFA08E2DE4EF1B00FEDC29 /* ArtGalleryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA08D2DE4EF1B00FEDC29 /* ArtGalleryAppUITestsLaunchTests.swift */; };
+		83CFA09C2DE4F6B900FEDC29 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA09B2DE4F6B900FEDC29 /* HomeView.swift */; };
+		83CFA09F2DE4F9DA00FEDC29 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA09E2DE4F9DA00FEDC29 /* Photo.swift */; };
+		83CFA0A22DE5140000FEDC29 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA0A12DE5140000FEDC29 /* HomeViewModel.swift */; };
+		83CFA0A52DE5160400FEDC29 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA0A42DE5160400FEDC29 /* NetworkService.swift */; };
+		83CFA0A82DE51CED00FEDC29 /* ViewCodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA0A72DE51CED00FEDC29 /* ViewCodeable.swift */; };
+		83CFA0AB2DE51F3C00FEDC29 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA0AA2DE51F3C00FEDC29 /* Colors+Extension.swift */; };
+		83CFA0B22DE5212500FEDC29 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83CFA0B12DE5212200FEDC29 /* Gilroy-Bold.ttf */; };
+		83CFA0B32DE5212800FEDC29 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83CFA0B02DE5212200FEDC29 /* Gilroy-Heavy.ttf */; };
+		83CFA0B42DE5212B00FEDC29 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83CFA0AF2DE5212200FEDC29 /* Gilroy-Light.ttf */; };
+		83CFA0B52DE5212E00FEDC29 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83CFA0AD2DE5212200FEDC29 /* Gilroy-Medium.ttf */; };
+		83CFA0B62DE5213100FEDC29 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83CFA0AE2DE5212200FEDC29 /* Gilroy-Regular.ttf */; };
+		83CFA0B82DE5214900FEDC29 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA0B72DE5214900FEDC29 /* UIFont+Extension.swift */; };
+		83CFA0BB2DE5243B00FEDC29 /* HorizontalPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA0BA2DE5243B00FEDC29 /* HorizontalPhotoCell.swift */; };
+		83CFA0BF2DE5536000FEDC29 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 83CFA0BE2DE5536000FEDC29 /* Secrets.xcconfig */; };
+		83CFA0C12DE557CC00FEDC29 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA0C02DE557CC00FEDC29 /* PinterestLayout.swift */; };
+		83CFA0C32DE55F1000FEDC29 /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFA0C22DE55F1000FEDC29 /* FavoritesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +54,7 @@
 		83CFA0672DE4EF1900FEDC29 /* ArtGalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtGalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83CFA06A2DE4EF1900FEDC29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83CFA06C2DE4EF1900FEDC29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83CFA06E2DE4EF1900FEDC29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83CFA06E2DE4EF1900FEDC29 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		83CFA0732DE4EF1B00FEDC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83CFA0762DE4EF1B00FEDC29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83CFA0782DE4EF1B00FEDC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +63,22 @@
 		83CFA0872DE4EF1B00FEDC29 /* ArtGalleryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtGalleryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83CFA08B2DE4EF1B00FEDC29 /* ArtGalleryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtGalleryAppUITests.swift; sourceTree = "<group>"; };
 		83CFA08D2DE4EF1B00FEDC29 /* ArtGalleryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtGalleryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83CFA09B2DE4F6B900FEDC29 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		83CFA09E2DE4F9DA00FEDC29 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		83CFA0A12DE5140000FEDC29 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		83CFA0A42DE5160400FEDC29 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		83CFA0A72DE51CED00FEDC29 /* ViewCodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeable.swift; sourceTree = "<group>"; };
+		83CFA0AA2DE51F3C00FEDC29 /* Colors+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
+		83CFA0AD2DE5212200FEDC29 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		83CFA0AE2DE5212200FEDC29 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		83CFA0AF2DE5212200FEDC29 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		83CFA0B02DE5212200FEDC29 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		83CFA0B12DE5212200FEDC29 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		83CFA0B72DE5214900FEDC29 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		83CFA0BA2DE5243B00FEDC29 /* HorizontalPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPhotoCell.swift; sourceTree = "<group>"; };
+		83CFA0BE2DE5536000FEDC29 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		83CFA0C02DE557CC00FEDC29 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		83CFA0C22DE55F1000FEDC29 /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +129,16 @@
 		83CFA0692DE4EF1900FEDC29 /* ArtGalleryApp */ = {
 			isa = PBXGroup;
 			children = (
+				83CFA0A62DE51CDD00FEDC29 /* Utils */,
+				83CFA0A32DE515DB00FEDC29 /* Service */,
+				83CFA09D2DE4F98600FEDC29 /* Model */,
+				83CFA09A2DE4F6A500FEDC29 /* Home */,
 				83CFA06A2DE4EF1900FEDC29 /* AppDelegate.swift */,
 				83CFA06C2DE4EF1900FEDC29 /* SceneDelegate.swift */,
-				83CFA06E2DE4EF1900FEDC29 /* ViewController.swift */,
 				83CFA0732DE4EF1B00FEDC29 /* Assets.xcassets */,
 				83CFA0752DE4EF1B00FEDC29 /* LaunchScreen.storyboard */,
 				83CFA0782DE4EF1B00FEDC29 /* Info.plist */,
+				83CFA0BE2DE5536000FEDC29 /* Secrets.xcconfig */,
 			);
 			path = ArtGalleryApp;
 			sourceTree = "<group>";
@@ -122,6 +158,66 @@
 				83CFA08D2DE4EF1B00FEDC29 /* ArtGalleryAppUITestsLaunchTests.swift */,
 			);
 			path = ArtGalleryAppUITests;
+			sourceTree = "<group>";
+		};
+		83CFA09A2DE4F6A500FEDC29 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				83CFA0B92DE5242800FEDC29 /* Cell */,
+				83CFA06E2DE4EF1900FEDC29 /* HomeViewController.swift */,
+				83CFA09B2DE4F6B900FEDC29 /* HomeView.swift */,
+				83CFA0A12DE5140000FEDC29 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		83CFA09D2DE4F98600FEDC29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83CFA09E2DE4F9DA00FEDC29 /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83CFA0A32DE515DB00FEDC29 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				83CFA0A42DE5160400FEDC29 /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		83CFA0A62DE51CDD00FEDC29 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				83CFA0AC2DE5211100FEDC29 /* Fonts */,
+				83CFA0A72DE51CED00FEDC29 /* ViewCodeable.swift */,
+				83CFA0AA2DE51F3C00FEDC29 /* Colors+Extension.swift */,
+				83CFA0C22DE55F1000FEDC29 /* FavoritesManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		83CFA0AC2DE5211100FEDC29 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				83CFA0B12DE5212200FEDC29 /* Gilroy-Bold.ttf */,
+				83CFA0B02DE5212200FEDC29 /* Gilroy-Heavy.ttf */,
+				83CFA0AF2DE5212200FEDC29 /* Gilroy-Light.ttf */,
+				83CFA0AD2DE5212200FEDC29 /* Gilroy-Medium.ttf */,
+				83CFA0AE2DE5212200FEDC29 /* Gilroy-Regular.ttf */,
+				83CFA0B72DE5214900FEDC29 /* UIFont+Extension.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		83CFA0B92DE5242800FEDC29 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				83CFA0BA2DE5243B00FEDC29 /* HorizontalPhotoCell.swift */,
+				83CFA0C02DE557CC00FEDC29 /* PinterestLayout.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +324,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83CFA0BF2DE5536000FEDC29 /* Secrets.xcconfig in Resources */,
+				83CFA0B32DE5212800FEDC29 /* Gilroy-Heavy.ttf in Resources */,
+				83CFA0B52DE5212E00FEDC29 /* Gilroy-Medium.ttf in Resources */,
+				83CFA0B22DE5212500FEDC29 /* Gilroy-Bold.ttf in Resources */,
 				83CFA0742DE4EF1B00FEDC29 /* Assets.xcassets in Resources */,
+				83CFA0B42DE5212B00FEDC29 /* Gilroy-Light.ttf in Resources */,
+				83CFA0B62DE5213100FEDC29 /* Gilroy-Regular.ttf in Resources */,
 				83CFA0772DE4EF1B00FEDC29 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +356,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83CFA06F2DE4EF1900FEDC29 /* ViewController.swift in Sources */,
+				83CFA0C12DE557CC00FEDC29 /* PinterestLayout.swift in Sources */,
+				83CFA0AB2DE51F3C00FEDC29 /* Colors+Extension.swift in Sources */,
+				83CFA06F2DE4EF1900FEDC29 /* HomeViewController.swift in Sources */,
+				83CFA0A82DE51CED00FEDC29 /* ViewCodeable.swift in Sources */,
+				83CFA0A22DE5140000FEDC29 /* HomeViewModel.swift in Sources */,
+				83CFA09C2DE4F6B900FEDC29 /* HomeView.swift in Sources */,
+				83CFA09F2DE4F9DA00FEDC29 /* Photo.swift in Sources */,
 				83CFA06B2DE4EF1900FEDC29 /* AppDelegate.swift in Sources */,
 				83CFA06D2DE4EF1900FEDC29 /* SceneDelegate.swift in Sources */,
+				83CFA0B82DE5214900FEDC29 /* UIFont+Extension.swift in Sources */,
+				83CFA0BB2DE5243B00FEDC29 /* HorizontalPhotoCell.swift in Sources */,
+				83CFA0C32DE55F1000FEDC29 /* FavoritesManager.swift in Sources */,
+				83CFA0A52DE5160400FEDC29 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +418,7 @@
 /* Begin XCBuildConfiguration section */
 		83CFA08F2DE4EF1B00FEDC29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CFA0BE2DE5536000FEDC29 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -369,6 +482,7 @@
 		};
 		83CFA0902DE4EF1B00FEDC29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CFA0BE2DE5536000FEDC29 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -425,6 +539,7 @@
 		};
 		83CFA0922DE4EF1B00FEDC29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CFA0BE2DE5536000FEDC29 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +571,7 @@
 		};
 		83CFA0932DE4EF1B00FEDC29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CFA0BE2DE5536000FEDC29 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -487,6 +603,7 @@
 		};
 		83CFA0952DE4EF1B00FEDC29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CFA0BE2DE5536000FEDC29 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +624,7 @@
 		};
 		83CFA0962DE4EF1B00FEDC29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CFA0BE2DE5536000FEDC29 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +645,7 @@
 		};
 		83CFA0982DE4EF1B00FEDC29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CFA0BE2DE5536000FEDC29 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +664,7 @@
 		};
 		83CFA0992DE4EF1B00FEDC29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CFA0BE2DE5536000FEDC29 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
